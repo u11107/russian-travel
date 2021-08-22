@@ -1,0 +1,10 @@
+.lead {
+  background-color: #2A2C2F;
+  max-width: 984px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
