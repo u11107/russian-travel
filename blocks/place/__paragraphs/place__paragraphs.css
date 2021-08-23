@@ -1,0 +1,10 @@
+.place__paragraphs {
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0;
+}

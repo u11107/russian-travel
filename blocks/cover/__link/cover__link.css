@@ -1,0 +1,15 @@
+.cover__link {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../images/cover__background.jpg");
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.cover__link:hover {
+    opacity: .8;
+}
