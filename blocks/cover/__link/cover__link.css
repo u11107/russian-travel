@@ -9,7 +9,24 @@
     align-items: center;
 }
 
-  
+
+.cover__link:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: .3;
+  transition: opacity .3s ease;
+}
+
+.cover__link:hover::before {
+  background: #2A2C2F;
+  opacity: .8;
+}
+
 .cover__link:hover {
-    opacity: .8;
+  opacity: 1;
 }
