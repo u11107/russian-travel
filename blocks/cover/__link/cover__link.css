@@ -1,7 +1,6 @@
 .cover__link {
     height: 100%;
     width: 100%;
-    background-image: url("../../../images/cover__background.jpg");
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -22,11 +21,11 @@
   transition: opacity .3s ease;
 }
 
-.cover__link:hover::before {
+.cover__link:hover::before {    /* Если я удаляю данный стиль то исчезает затемнение при наведение*/
   background: #2A2C2F;
   opacity: .8;
 }
 
-.cover__link:hover {
+.cover__link:hover {             /* Если я удаляю данный стиль то исчезает затемнение при наведение*/
   opacity: 1;
 }

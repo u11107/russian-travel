@@ -8,25 +8,22 @@
 
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    max-width: 90.625%;
+    max-width: 91%;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
-    max-width: 93.75%;
+    max-width: 94%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     max-width: 90%;
     gap: 12px;
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
   }
 }
