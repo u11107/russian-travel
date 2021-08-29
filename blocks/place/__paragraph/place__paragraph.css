@@ -1,20 +1,45 @@
 .place__paragraph {
-  margin: 0;
-  margin-bottom: 24px;
-  font-style: normal;
-  font-weight: normal;
+  grid-column: 2;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  color: #FFFFFF;
+  margin: 0 0 25px 0;
+  color: #FFFFFF
 }
 
-.place__paragraph:last-child {
-    margin-bottom: 0px;
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    width: 352px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    grid-column: 1;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .place__paragraph:first-of-type {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin: 0 auto 25px auto;
+    width: 288px;
   }
 }

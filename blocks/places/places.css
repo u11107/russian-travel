@@ -1,25 +1,30 @@
-.places {
-    font-family: 'Inter', "Helvetica Neue", Arial, sans-serif;
-    background-color: #2A2C2F;
+ .places {
     max-width: 984px;
-    margin: 0 auto;
-    margin-bottom: 92px;
-}
-
-@media screen and (max-width: 1279px) {
-  .places{
-    width: 91%;
+    margin: 0 auto ;
   }
-}
 
-@media screen and (max-width: 1023px) {
-  .places{
-    width: 94%;
+  @media screen and (max-width: 1024px) {
+    .places {
+      max-width: 90.625%;
+    }
   }
-}
 
-@media screen and (max-width: 767px) {
-  .places{
-    width: 100%;
+  @media screen and (max-width: 768px) {
+    .places {
+      gap: 73px;
+      max-width: 93.75%;
+    }
   }
-}
+
+  @media screen and (max-width: 767px) {
+    .places {
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places {
+      gap: 50px;
+
+    }
+  }
