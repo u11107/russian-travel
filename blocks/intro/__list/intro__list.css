@@ -1,6 +1,3 @@
-li {
-  list-style-type: none;
- }
 
 .intro__list {
   max-width: 690px;
@@ -12,4 +9,5 @@ li {
   line-height: 18px;
   font-style: normal;
   font-weight: bold;
+  list-style-type: none;
 }

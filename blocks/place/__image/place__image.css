@@ -1,10 +1,9 @@
 .place__image {
   width: 100%;
-  grid-row: 2/6;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 680px) {
   .place__image {
-    grid-row: auto;
+    margin-bottom: 32px;
   }
 }
