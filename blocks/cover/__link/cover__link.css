@@ -1,5 +1,4 @@
 .cover__link {
-  display: block;
   min-height: 740px;
   z-index: 2;
   grid-row: 1/3;
